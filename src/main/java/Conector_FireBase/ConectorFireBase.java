@@ -123,7 +123,7 @@ public class ConectorFireBase {
             return true;
 
         } catch (Exception e) {
-            System.err.println("ERROR: " + e.getMessage());
+            System.err.println("EROR: " + e.getMessage());
             return false;
         }
     }
